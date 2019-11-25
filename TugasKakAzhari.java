@@ -1,5 +1,5 @@
 import java.util.*;
-public class btavo{
+public class TugasKakAzhari{
 public static void main(String[] args) {
    int[] nilai = {7, 10, 8, 6, 9, 7};
    int[] absen = {1, 2, 3, 4, 5, 6};
