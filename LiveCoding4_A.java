@@ -4,11 +4,7 @@ public class Solution {
 
     static int maxSubsquare(int[][] square) {
         
-        int total = 0;
-        total+=square[0][0];
-        total+=square[0][0+1];
-        total+=square[0+1][0];
-        total+=square[0+1][0+1];
+        int total = -36;
         int total_max = total;
         for (int i=0;i<=square.length-2;i++){
             for (int j=0;j<=square[0].length-2;j++){
